@@ -1,6 +1,8 @@
 #  Handwritten letters recognition
 HSE ML course project
 
+[Презентация](https://docs.google.com/presentation/d/1_aIhxWSQumb78REf4R8cmY15M6yjEAcA5Mjs5CtLui8/edit#slide=id.p) по проекту
+
 ### Autor:
 - Filichkin Kirill
 
