@@ -1,5 +1,5 @@
 #  Handwritten letters recognition
-HSE ML course project (2nd year)
+HSE ML course project
 
 ### Autor:
 - Filichkin Kirill
@@ -30,3 +30,4 @@ The result of the work were two trained models
 
 - RandomForestClassifier : 0.9875
 - CNN : 0.7166
+
