@@ -13,14 +13,14 @@ foo@bar:~$ pip3 install -r requirements.txt
 ```
 
 ##  Source data description
-- [dataset](https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format) from kaggle.com, csv file with pictures
+- [dataset](https://www.kaggle.com/datasets/olgabelitskaya/classification-of-handwritten-letters) from kaggle.com, csv file with pictures
 
-## Our purposes
+## My purposes
 Write a model for recognizing handwritten letters
 
 ## Used algorithms
 
-The dataset has already been pre-processed well, so the Standard Scaler was used to normalize the values, and the "random forest" and CNN architecture were used to train the model
+  I used: my CNN, ResNet18, DenseNet121, MobileNetV2. The outputs of the last three have been modified.
 
 ## Metrics
 
@@ -28,8 +28,10 @@ I used the f1 metric. The F1 measure is a good metric for the handwriting recogn
 
 
 ## Results
-The result of the work were two trained models
 
-- RandomForestClassifier : 0.9875
-- CNN : 0.7166
+Results of training on f1 metrics:
 
+- MyCNN - 0.8094226444217009
+- ResNet18 - 0.8712417861233892
+- DenseNet121 - 0.8850935009633695
+- MobileNetV2 - 0.6255127405806763
